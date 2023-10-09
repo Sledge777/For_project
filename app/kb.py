@@ -2,7 +2,7 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, inline_keyboard_m
 from aiogram.types.web_app_info import WebAppInfo
 
 user_main_kb= [
-    [KeyboardButton(text='Управление ботом',web_app=WebAppInfo(url='https://master--animated-rugelach-7c0140.netlify.app')), 
+    [KeyboardButton(text='Управление ботом', web_app=WebAppInfo(url='https://master--animated-rugelach-7c0140.netlify.app/telegram')), 
 
     ],
     [KeyboardButton(text='💩ара какиш'),
