@@ -2,7 +2,6 @@ from aiogram import types, F, Router
 from aiogram.types import Message
 from aiogram.filters import Command
 from aiogram.types.web_app_info import WebAppInfo
-
 from app.kb import *
 
 

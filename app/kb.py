@@ -7,7 +7,7 @@ user_main_kb= [
     ],
     [KeyboardButton(text='💩ара какиш'),
      
-     ]
+     ],
     
 ]
 
