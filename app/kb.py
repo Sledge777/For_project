@@ -5,9 +5,6 @@ user_main_kb= [
     [KeyboardButton(text='Управление ботом', web_app=WebAppInfo(url='https://master--animated-rugelach-7c0140.netlify.app/telegram')), 
 
     ],
-    [KeyboardButton(text='💩ара какиш'),
-     
-     ],
     
 ]
 

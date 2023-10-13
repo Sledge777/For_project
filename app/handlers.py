@@ -10,11 +10,16 @@ router = Router()
 
 @router.message(Command("start"))
 async def start_handler(msg: Message):
-    await msg.answer("Привет! Я помогу тебе узнать твой ID, просто отправь мне любое сообщение", reply_markup = user_main)
+    await msg.answer("Привет! Напиши мне любую просьбу связанную с моими командами и я тебе помогу! Для ознакомления с командами напиши команду help", reply_markup = user_main)
+    
 
-@router.message(F.text == ('❓узнать о боте'))
+@router.message(Command("help"))
+async def start_handler(msg: Message):
+    await msg.answer("Список команд бота: help ; me ; clean ; start audio")
+
+@router.message(F.text == ('узнать о боте'))
 async def help_cmd(msg: Message):
-    await msg.answer("иди отсюда")
+    await msg.answer("Я робот который предназначен для помощи и уборке по дому...")
 
 @router.message(F.text == ('💩ара какиш'))
 async def help_cmd(msg: Message):
